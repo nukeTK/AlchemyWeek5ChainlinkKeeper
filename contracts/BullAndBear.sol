@@ -41,7 +41,7 @@ contract BullBear is ERC721, ERC721Enumerable, ERC721URIStorage, KeeperCompatibl
 
     event TokensUpdated(string marketTrend);
 
-    constructor(uint updateInterval, address _pricefeed) ERC721("Bull&Bear", "BBTK") {
+    constructor(uint updateInterval, address _pricefeed) ERC721("nukeTKBull", "BBTK") {
         // Set the keeper update interval
         interval = updateInterval; 
         lastTimeStamp = block.timestamp;  //  seconds since unix epoch
